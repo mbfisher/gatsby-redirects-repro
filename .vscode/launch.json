@@ -1,0 +1,23 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "netlify dev",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "/Users/mike.fisher/.nvm/versions/node/v12.8.1/lib/node_modules/netlify-cli/bin/run",
+            "args": ["dev"],
+            "env": {
+                // "DEBUG": "*,-babel*,-send,-compression"
+            },
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
